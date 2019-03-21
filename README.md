@@ -31,9 +31,16 @@ cd employee-client
 
 npm install
 
-ng serve
+ng serve --watch=false
 
 application can now be accessed via http://localhost:4200
+
+longin details: admin/admin
+
+###NOTE
+
+- Add Employee operation is pending
+- Current implementation have not included authentication and authorization
 
 
 
