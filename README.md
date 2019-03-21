@@ -40,8 +40,8 @@ longin details: admin/admin
 ### NOTE
 
 - Add Employee operation is pending
-
-- Current implementation have not included authentication and authorization
+- Test cases are pending
+- Current implementation does not include authentication and authorization
 
 
 
