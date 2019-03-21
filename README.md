@@ -35,9 +35,9 @@ ng serve --watch=false
 
 application can now be accessed via http://localhost:4200
 
-longin details: admin/admin
+login details: admin/admin
 
-### NOTE
+### NOTE (Pending)
 
 - Add Employee operation is pending
 - Test cases are pending
