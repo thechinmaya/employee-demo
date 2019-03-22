@@ -23,7 +23,7 @@ cd employee-server
 
 mvn spring-boot:run
 
-Check the api spec by visiting http://localhost:8080/swagger-ui.html
+Check the api spec by visiting http://localhost:8080/api/swagger-ui.html
 
 ### to start the client web app
 
