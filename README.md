@@ -39,7 +39,6 @@ login details: admin/admin
 
 ### NOTE (Pending)
 
-- Add Employee operation is pending
 - Test cases are pending
 - Current implementation does not include authentication and authorization
 
