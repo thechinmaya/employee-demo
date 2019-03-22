@@ -14,9 +14,18 @@ export class ApiService {
     return this.http.get<any>(this.baseUrl + "/getAllEmployees");
   }
 
+  getDepartments() : Observable<any> {
+    return this.http.get<any>(this.baseUrl + "/getAllDepartments");
+  }
+
+   getGenders() : Observable<any> {
+    return this.http.get<any>(this.baseUrl + "/getAllGenders");
+  }
+
  
   createemployee(emp: Employee): Observable<any> {
-    return this.http.post<any>(this.baseUrl + "/createEmployee", emp);
+      console.log(emp);
+    return this.http.post<Employee>(this.baseUrl + "/createEmployee", emp);
   }
 
  

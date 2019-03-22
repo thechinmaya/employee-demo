@@ -1,10 +1,12 @@
+import { Department } from './dept.model';
+
 export class Employee {
 
-  id: number;
+  id: number = 0;
   firstName: string;
   lastName: string;
   gender: string;
   dob: string;
-  deptName: string;
+  department: Department;
 
 }
