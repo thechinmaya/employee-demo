@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.sahu.chinmaya.employeeserver.db.Department;
-import com.sahu.chinmaya.employeeserver.db.DepartmentService;
 import com.sahu.chinmaya.employeeserver.db.EmpGender;
 import com.sahu.chinmaya.employeeserver.db.Employee;
-import com.sahu.chinmaya.employeeserver.db.EmployeeService;
+import com.sahu.chinmaya.employeeserver.service.DepartmentService;
+import com.sahu.chinmaya.employeeserver.service.EmployeeService;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)

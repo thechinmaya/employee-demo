@@ -1,4 +1,4 @@
-package com.sahu.chinmaya.employeeserver.db;
+package com.sahu.chinmaya.employeeserver.service;
 
 import java.util.List;
 
@@ -7,6 +7,9 @@ import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
+
+import com.sahu.chinmaya.employeeserver.db.Employee;
+import com.sahu.chinmaya.employeeserver.db.EmployeeRepo;
 
 @Service
 public class EmployeeService {
